@@ -1,0 +1,58 @@
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.navbar-brand img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+.navbar {
+    padding: 0.5rem 1rem;
+    background-color: #00a5e3;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* Adjust the height as needed */
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.vehicle-icon {
+    max-width: 100%;
+    height: auto;
+    background-color: #F1FBFF;
+}
+
+.step-logo {
+    width:64px;
+    height:64px;
+}
+
+.progress-container {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 5px solid #003A4F;
+}
+.progress-bar {
+    height: 30px;
+    background-color: #5CBA98;
+    width: 0;
+    transition: width 0.5s;
+    border-right: 3px solid #003A4F;
+}
+
+footer {
+    background-color: #7FDCFF;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
